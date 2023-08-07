@@ -42,7 +42,7 @@ export default function Intro() {
                         }}>👋</motion.span>
         </div>
       </div>
-        <motion.p className="text-slate-700 mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        <motion.h1 className="text-slate-700 mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
                   initial={{ opacity:0, y: 100 }}
                   animate={{ opacity: 1, y: 0 }}
         > 
@@ -61,13 +61,13 @@ export default function Intro() {
           </span> {" "} 
            <span className="italic">*Breathes*  </span> {" "} 
            My main focus is in {" "} 
-           <span className="font-bold">
+           <span className="underline">
            full-stack web development
           </span> {" "} with a passion for {" "}
-          <span className="underline">
+          <span className="font-bold">
             machine learning
-          </span> {" "} on the side.
-        </motion.p>
+          </span>{" "} on the side.
+        </motion.h1>
         <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y:0 }}
