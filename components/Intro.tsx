@@ -75,23 +75,23 @@ export default function Intro() {
             delay: 0.2,
           }}>
           <Link href="#contact" className="group bg-gray-900 text-white px-7 py-3 flex shadow-md items-center gap-2 rounded-full 
-              outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition">
+              outline-none hover:scale-110 hover:bg-gray-950 active:scale-105 transition">
             Contact me here {" "}<BsArrowRight className="opacity-60 group-hover:translate-x-1 transition"/></Link>
 
           <a className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full shadow-md
-              outline-none focus:scale-110 hover:scale-110  active:scale-105 transition cursor-pointer"
+              outline-none hover:scale-110  active:scale-105 transition cursor-pointer"
               href="/resume20230805.pdf" download>Download CV
               <HiDownload className="opacity-60 group-hover:translate-y-1 transition"/>
           </a>
 
           <a className="bg-white p-4 text-gray-600 text-[1.35rem] shadow-md flex items-center gap-2 rounded-full
-                        focus:scale-[1.15] hover:text-gray-950 hover:scale-[1.15] active:scale-105 transition cursor-pointer"
+                         hover:text-gray-950 hover:scale-[1.15] active:scale-105 transition cursor-pointer"
                         href="https://linkedin.com/in/kyle-tan2061" target="_blank">
             <BsLinkedin />
           </a>
 
           <a className="bg-white p-4 text-gray-600 text-[1.35rem] shadow-md flex items-center gap-2 rounded-full
-                        focus:scale-[1.15] hover:text-gray-950 hover:scale-[1.15] active:scale-105 transition cursor-pointer"
+                         hover:text-gray-950 hover:scale-[1.15] active:scale-105 transition cursor-pointer"
                         href="https://github.com/ktan46" target="_blank">
             <FaGithubSquare />
           </a>
