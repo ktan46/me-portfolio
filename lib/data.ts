@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "/public/docgptimage.jpg";
-import rmtdevImg from "/public/scoop-scouter.jpg";
-import wordanalyticsImg from "/public/honk-stonks.png";
+import corpcommentImg from "./public/docgptimage.jpg";
+import rmtdevImg from "./public/scoop-scouter.jpg";
+import wordanalyticsImg from "./public/honk-stonks.png";
 
 export const links = [
   {
@@ -60,24 +60,24 @@ export const projectsData = [
   {
     title: "DocGPT",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Ai powered chatbot that can work locally using GPT4All LLMs. Users can upload multiple PDFs locally to interact with the chatbot.",
+    tags: ["Python", "Streamlit", "Langchain", "Hugging Face", "Firebase"],
     imageUrl: corpcommentImg,
     repo: "https://github.com/ktan46/docgpt",
   },
   {
     title: "Scoop Scouter",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "An ice cream truck tracking Android app that uses user-sourced truck sightings and truck verification using computer vision. ",
+    tags: ["Java", "OpenCV", "Google Maps", "Firebase"],
     imageUrl: rmtdevImg,
     repo: "https://github.com/jutinwang/DeerHacks-2023-Scoop-Scouter",
   },
   {
     title: "Honk Stonks",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A data visualization tool for stocks .",
+    tags: ["React", "ReChart", "FinnHub", "TailwindCSS", "Firebase"],
     imageUrl: wordanalyticsImg,
     repo: "https://github.com/BlackTulipLatte/stock_tracker",
   },
