@@ -30,8 +30,8 @@ function Project({
   repo
 }: ProjectProps) {
   return <section className="group bg-gray-100 hover:bg-gray-200 transition max-w-[42rem] shadow-xl overflow-hidden sm:pr-8 relative sm:h-[20rem] mb-3 sm:mb-8 last:mb-0">
-    <div className="py-4 px-5 sm:pl-10 sm:max-w-[50%] flex flex-col h-full ">
-      <h3 className="text-2xl font-semibold">{title}</h3>
+    <div className="pb-5 px-5 sm:pl-10 sm:max-w-[50%] flex flex-col h-full ">
+      <h3 className="text-2xl font-semibold mt-5">{title}</h3>
       <p className="mt-2 leading-relaxed text-gray-700">{description}</p>
       <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
         {tags.map((tag, index) => (

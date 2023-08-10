@@ -61,7 +61,7 @@ export const projectsData = [
     title: "DocGPT",
     description:
       "Ai powered chatbot that can work locally using GPT4All LLMs. Users can upload multiple PDFs locally to interact with the chatbot.",
-    tags: ["Python", "Streamlit", "Langchain", "Hugging Face", "Firebase"],
+    tags: ["Python", "Langchain", "Firebase", "Hugging Face", "Streamlit"],
     imageUrl: corpcommentImg,
     repo: "https://github.com/ktan46/docgpt",
   },
