@@ -76,7 +76,7 @@ export const projectsData = [
   {
     title: "Honk Stonks",
     description:
-      "A data visualization tool for stocks .",
+      "A data visualization tool for stocks using beauitful Tailwind CSS with user Authentication with Google Firebase.",
     tags: ["React", "ReChart", "FinnHub", "TailwindCSS", "Firebase"],
     imageUrl: wordanalyticsImg,
     repo: "https://github.com/BlackTulipLatte/stock_tracker",
@@ -84,17 +84,19 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "C/C++",
+  "Python",
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
   "React",
+  "Firebase",
+  "Hugging Face",
+  "OpenCV",
   "Next.js",
   "Node.js",
   "Git",
-  "TailwindCSS",
-  "Prisma",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Tailwind",
+  "Streamlit",
 ] as const;

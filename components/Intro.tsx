@@ -9,7 +9,7 @@ import { FaGithubSquare } from 'react-icons/fa'
 
 export default function Intro() {
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section id="home" className="scroll-mt-[100rem] mb-28 max-w-[50rem] text-center sm:mb-0">
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -68,7 +68,7 @@ export default function Intro() {
             machine learning
           </span>{" "} on the side.
         </motion.h1>
-        <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        <motion.div className="flex flex-wrap items-center justify-center gap-2 px-4 text-lg font-medium"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y:0 }}
           transition={{
@@ -85,14 +85,14 @@ export default function Intro() {
           </a>
 
           <a className="bg-white p-4 text-gray-600 text-[1.35rem] shadow-md flex items-center gap-2 rounded-full
-                         hover:text-gray-950 hover:scale-[1.15] active:scale-105 transition cursor-pointer"
-                        href="https://linkedin.com/in/kyle-tan2061" target="_blank">
+                            hover:text-gray-950 hover:scale-[1.15] active:scale-105 transition cursor-pointer"
+                            href="https://linkedin.com/in/kyle-tan2061" target="_blank">
             <BsLinkedin />
           </a>
 
           <a className="bg-white p-4 text-gray-600 text-[1.35rem] shadow-md flex items-center gap-2 rounded-full
-                         hover:text-gray-950 hover:scale-[1.15] active:scale-105 transition cursor-pointer"
-                        href="https://github.com/ktan46" target="_blank">
+                            hover:text-gray-950 hover:scale-[1.15] active:scale-105 transition cursor-pointer"
+                            href="https://github.com/ktan46" target="_blank">
             <FaGithubSquare />
           </a>
         </motion.div>
