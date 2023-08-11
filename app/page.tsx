@@ -4,7 +4,7 @@ import Intro from "@/components/Intro";
 import Projects from "@/components/Project";
 import SectionDivider from "@/components/SectionDivider";
 import Skills from "@/components/Skills";
-
+import Footer from "@/components/TempFooter";
 export default function Home() {
   return (
     <main className="flex flex-col items-center px-4">
@@ -13,6 +13,7 @@ export default function Home() {
       <Projects />
       <Skills />
       <Experience />
+      <Footer />
     </main>
   )
 }

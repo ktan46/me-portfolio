@@ -35,25 +35,25 @@ export const experiencesData = [
     title: "University of Waterloo",
     location: "Waterloo, ON, Canada",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Currently majoring in Computational Mathematics and Combinatorics & Optimization with Co-op. I am open to full-time opportunities for Winter 2024 and Spring 2024.",
     icon: React.createElement(LuGraduationCap),
-    date: "Sept 2021-Present",
+    date: "Sept 2021 - Present",
   },
   {
     title: "WeAccelerate Manulife Program",
     location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
+      "Bootcamp working with Manulife mentors to develop web applications built on Vite using React, Node, Express and Tailwind CSS.",
+    icon: React.createElement(FaReact),
     date: "May 2023 - August 2023",
   },
   {
     title: "Full Stack Developer",
     location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Express and Firebase. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "May 2023 - August 2023",
+      "Developing educational web applications at the startup Hatch Coding. My tech stack is React, Node, Next.js, Tailwind CSS, Express.js and Google Firebase.",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2023 - Present",
   },
 ] as const;
 
