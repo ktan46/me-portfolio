@@ -4,6 +4,7 @@ import SectionHeading from './section-heading'
 import { projectsData } from '@/lib/data'
 import Image from 'next/image'
 import { motion, useScroll, useTransform } from 'framer-motion'
+import { BsPaperclip } from 'react-icons/bs'
 
 
 export default function Projects() {
@@ -51,7 +52,10 @@ function Project({
       <section 
         className="group bg-gray-100 hover:bg-gray-200 transition max-w-[42rem] shadow-xl overflow-hidden sm:pr-8 relative sm:h-[20rem] mb-3 sm:mb-8 last:mb-0">
         <div className="pb-5 px-5 sm:pl-10 sm:max-w-[50%] flex flex-col h-full ">
-          <a href={repo} target="_blank" className="text-2xl font-semibold mt-5">{title}</a>
+          <div className="flex items-center">
+            <a href={repo} target="_blank" className="text-2xl font-semibold mt-5">{title}</a>
+            <a href={repo} target="_blank" className="mt-6"><BsPaperclip/> {" "}</a>
+          </div>
           <p className="mt-2 mr-2 leading-relaxed text-gray-700">{description}</p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
