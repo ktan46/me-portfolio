@@ -72,7 +72,7 @@ function getSkillStyle(skill: String) {
 
 export default function Skills() {
   return (
-    <section id="skills" className="mb-28 max-w-[53rem] mt-6 scroll-mt-28 text-center sm:mb-40">
+    <section id="skills" className="mb-10 max-w-[53rem] mt-6 scroll-mt-28 text-center sm:mb-20">
       <SectionHeading>
         My Skills
       </SectionHeading>
@@ -84,6 +84,9 @@ export default function Skills() {
               className={`p-2 px-5 py-3 rounded-xl border-none shadow-xl ${getSkillStyle(skill)}`}
               variants={fadeInAnimationVariants}
               initial="initial"
+              viewport={{
+                once: true,
+              }}
               whileInView="animate"
               custom={index}
               >{skill}</motion.li>
