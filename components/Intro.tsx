@@ -59,7 +59,6 @@ export default function Intro() {
           <span className="font-bold">
             Computational Mathematics and Combinatorics & Optimization. 
           </span> {" "} 
-           <span className="italic">*Breathes*  </span> {" "} 
            My main focus is in {" "} 
            <span className="underline">
            full-stack web development
