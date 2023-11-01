@@ -76,7 +76,7 @@ export default function Intro() {
 
           <a className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full shadow-md
               outline-none hover:scale-110  active:scale-105 transition cursor-pointer"
-              href="/2023_09_03_External.pdf" download>Download CV
+              href="/Cycle-2-F23-Interview-Notes.pdf" download>Download CV
               <HiDownload className="opacity-60 group-hover:translate-y-1 transition"/>
           </a>
 
