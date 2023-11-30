@@ -64,7 +64,7 @@ export default function Intro() {
            full-stack web development
           </span> {" "} with a passion for {" "}
           <span className="font-bold">
-            machine learning
+            project management and the SDLC
           </span>{" "} on the side.
         </motion.h1>
         <motion.div className="flex flex-wrap items-center justify-center gap-2 px-4 text-lg font-medium"
