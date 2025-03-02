@@ -62,10 +62,7 @@ export default function Intro() {
            My main focus is in {" "} 
            <span className="underline">
            full-stack web development
-          </span> {" "} with a passion for {" "}
-          <span className="font-bold">
-            Machine Learning
-          </span>{" "} on the side.
+          </span>
         </motion.h1>
         <motion.div className="flex flex-wrap items-center justify-center gap-2 px-4 text-lg font-medium"
           initial={{ opacity: 0, y: 100 }}
@@ -76,7 +73,7 @@ export default function Intro() {
 
           <a className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full shadow-md
               outline-none hover:scale-110  active:scale-105 transition cursor-pointer"
-              href="/Cycle-2-F23-Interview-Notes.pdf" download>Download CV
+              href="/w25_cv_c1_3_external.pdf" download>Download CV
               <HiDownload className="opacity-60 group-hover:translate-y-1 transition"/>
           </a>
 

@@ -35,7 +35,7 @@ export const experiencesData = [
     title: "University of Waterloo",
     location: "Waterloo, ON, Canada",
     description:
-      "Currently majoring in Computational Mathematics and Combinatorics & Optimization with Co-op. I am open to full-time opportunities for Winter 2024 and Fall 2024.",
+      "Currently majoring in Computational Mathematics and Combinatorics & Optimization with Co-op. I am open to full-time opportunities for Winter 2025 and Fall 2025.",
     icon: React.createElement(LuGraduationCap),
     date: "Sept 2021 - Present",
   },
